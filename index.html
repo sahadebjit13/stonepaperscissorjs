@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Stone-Paper-Scissor 
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="welcome">
+            <h1>Welcome!!</h1>
+            <h2>To Stone-Paper-Scissor</h2>
+        </div>
+        <div class="scoreBox">
+            <div class="score" >
+                <h2>You: </h2>
+                <h2 id="scoreOutput">0</h2>
+            </div>
+            <div class="score">
+                <h2>Computer: </h2>
+                <h2 id="cScoreOutput">0</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="start"><button id="play">&#9658</button></div>
+    
+    
+    <div class="hide">
+        <div class="entry">  
+            <button class= "btn" id="r0" value="0">STONE</button>
+            <button class= "btn" id="r1" value="1">PAPER</button>
+            <button class= "btn" id="r2" value="2">SCISSOR</button>
+        </div>
+
+        <div class="status">
+            <h2 id="tie">Status: None</h2>
+
+            <div class="compSign">
+                <h2 >Computer's Sign: </h2>
+                <h2 id="cSign"></h2>
+            </div>
+    
+            <button id="restart" onClick="window.location.href=window.location.href">Restart</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
