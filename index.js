@@ -1,3 +1,4 @@
+
 var comp;
 function compOutput()
 {
@@ -82,6 +83,7 @@ document.getElementById("r2").addEventListener("click",function()
     document.getElementById("cScoreOutput").innerText=compScore;
 
 });
+
 
 const start=document.querySelector("#play");
 start.addEventListener("click", function play(){
